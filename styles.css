@@ -1,0 +1,331 @@
+
+body {
+    background-image: url("elements/background_header.png");
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0;
+    letter-spacing: 0.5px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    margin: 3% 10% 4% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img {
+    margin-right: 2%;
+}
+
+header a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 50px;
+
+}
+
+.sectionBanner .slogan {
+    text-align: center;
+    color: white;
+}
+
+.sectionBanner .slogan h1 {
+    font-weight: 700;
+    font-size: 120px;
+    margin: 150px 0 0 0;
+}
+
+.sectionBanner .slogan p {
+    font-weight: 700;
+    font-size: 16px;
+    word-spacing: 60px;
+    margin: 0 0 0 0;
+}
+
+.sectionBanner .slogan button {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 40px;
+    background-color: #C271FF;
+    color: white;
+    padding: 15px 20px 15px 20px;
+    border-radius: 100px;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.5);
+    border-style: none;
+}
+
+.sectionBanner .titleavatars h2 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 32px;
+    color: white;
+    margin-top: 160px;
+}
+
+.sectionBanner .titleavatars h2 span {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    color: #C271FF;
+}
+.sectionBanner .avatars {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;   
+    color: white;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 110px;
+}
+
+.sectionBanner .avatars h3 {
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.sectionBanner .avatars p {
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.sectionQuote {
+    background-color: #C271FF;
+    margin-top: 100px;  
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 300px;
+    padding-right: 210px;
+}
+
+.sectionQuote .avatar2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sectionQuote .avatar2 .text {
+    color: white;
+    font-size: 22px;
+    margin-left: 70px;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sectionQuote .avatar2 .text blockquote{
+    font-weight: 300;
+    margin: 0;
+}
+.sectionQuote .avatar2 .text .p1{
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.sectionQuote .avatar2 .text .p2{
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.sectionVideos h1 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 32px;
+    color: 071629;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.sectionVideos h1 span {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    color: #C271FF;
+}
+
+.sectionVideos .videos {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;   
+    color: #071629;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+.sectionVideos h2 {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.sectionVideos .videos #description {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 50%;
+}
+
+.sectionVideos .videos .avatar {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+}
+.sectionVideos .videos .avatar img {
+    width: auto;
+    height: 100%;
+    margin-right: 10px;
+}
+.sectionVideos h3 {
+   color: #C271FF;
+   font-size: 14px;
+   font-weight: 600;
+}
+.sectionVideos .videos .stars {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.sectionVideos .videos .stars img {
+    margin-right: 1px;
+    margin-top: 0;
+}
+.sectionVideos .videos .stars #minutes {
+    color: #C271FF;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.sectionMembership {
+    background-color: #071629;
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.sectionMembership h1 {
+    font-weight: 100;
+    font-size: 32px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+
+.sectionMembership h1 span {
+    font-weight: 700;
+    font-size: 32px;
+    color: #C271FF;
+}
+
+.sectionMembership .smiles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-bottom: 0;
+}
+
+.sectionMembership h2 {
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 18px;
+    color: white;
+}
+
+.sectionMembership p {
+    font-weight: 100;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: white;
+}
+
+.sectionMembership button {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 80px;
+    background-color: #C271FF;
+    color: white;
+    padding: 15px 20px 15px 20px;
+    border-radius: 100px;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.5);
+    border-style: none;
+}
+
+.sectionFAQ h1 {
+    font-weight: 100;
+    color: #071629;
+    font-size: 60px;
+    text-align: center;
+}
+
+.sectionFAQ .block1,.sectionFAQ .block2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-bottom: 50px;
+}
+.sectionFAQ .p1 {
+    margin-right: 160px;
+}
+
+.sectionFAQ .p2 {
+    margin-left: 160px;
+}
+
+.sectionFAQ h2 {
+    color: #071629;
+}
+
+.sectionFAQ p {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 50%;
+    line-height : 30px;
+    color: #071629;
+}
+
+footer {
+    background-color: #071629;
+    margin-top: 80px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+footer .footerlinks {
+    margin: 3% 15% 6% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+footer .footerlinks .socialnetwork img{
+    margin-left: 10px;
+    
+}
+
+footer p {
+    color: white;
+    opacity: 50%;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
